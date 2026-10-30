@@ -1,0 +1,27 @@
+:root {
+  --color-ink: #1f2328;
+  --color-muted: #59636e;
+  --color-surface: #ffffff;
+  --color-accent: #1a7f37;
+  --color-accent-soft: #dafbe1;
+
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 40px;
+
+  --radius: 6px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-ink: #f0f6fc;
+    --color-muted: #9198a1;
+    --color-surface: #0d1117;
+    --color-accent-soft: #033a16;
+  }
+}
